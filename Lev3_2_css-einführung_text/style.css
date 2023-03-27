@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Timmosfont;
+    src: url(./Cinzel-VariableFont_wght.ttf);
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2{
+    background-color: green;
+}
+p strong{
+    color: yellow;
+}
+p em{
+    color: red;
+}
+h3{
+    font-family: Timmosfont; */
+}

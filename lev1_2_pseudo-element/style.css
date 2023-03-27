@@ -1,0 +1,47 @@
+p:nth-child(1)::first-letter{
+    color: #00bfff;
+}
+p:nth-child(1)::first-line{
+    color: #a020f0;
+}
+p:nth-child(2)::first-letter{
+    color: #00bfff;
+}
+p:nth-child(2)::first-line{
+    color: #a020f0;
+}
+h1 {
+    color: #2e8b57;
+}
+h1::before{
+    content: "HI!";
+    color: #32cd32;
+}
+h2 {
+    color: #2e8b57;
+}
+h3::selection{
+    background-color: #a020f0;
+    color: #a020f0;
+}
+h3 {
+    color: green;
+}
+main h2::after {
+    content: "!";
+    color: #a020f0;
+}
+main p::first-letter {
+    color: yellow;
+    font-size: 30px;
+}
+main p::first-line {
+    color: blue;
+}
+.meineeine:first-of-type::first-letter{
+    font-size: 30px;
+    color: #00bfff;
+}
+.meineeine::first-line {
+    color: #a020f0;
+}

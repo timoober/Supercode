@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+h3:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstlist {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4e342e;
+}
+
+.secondlist {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #689f38;
+}
+
+.thirdlist {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ef5350;
+}
+
+.firstp {
+    color: #999;
+}
+
+section {
+    font-size: 26px;
+    
+}
+
+section p:last-of-type {
+    font-size: small;
+}
+
+section p:nth-child(odd) {
+    color: #0277bd;
+}
+
+
+button:active {
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+button:visited {
+    color: red;
+    background-image: linear-gradient( to right , red , blue);
+}
+
+button:hover {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to left , green , black);
+}
+

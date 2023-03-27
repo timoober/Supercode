@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+li:nth-child(3n+3){
+    color: #311b92;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li:nth-child(5n+5){
+    background-color: #fff176;
+}
+
+li:nth-child(2n+2){
+    text-decoration: underline;
+}
+
+li:nth-child(odd){
+    list-style-type: square;
+}
+
+li:nth-child(7n+7){
+    font-size: 1.6em;
+}
+
+li:first-child{
+    color:#e53935;
+}
+
+li:nth-child(4n+4) {
+    letter-spacing: 6px;
+}
+
+li:nth-child(13n+13) {
+    background-color: #ff8a80;
+}

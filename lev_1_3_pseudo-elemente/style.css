@@ -1,0 +1,91 @@
+h1::first-letter{
+    color: #00796b;
+    font-size: 3em;
+}
+h1:hover::first-letter{
+    color: #4fc3f7;
+}
+li:nth-of-type(1)::before{
+    content: url(./check.png);
+}
+li:nth-of-type(1)::after{
+    content: url(./gym.png);
+}
+li:nth-of-type(2)::before{
+    content: url(./check.png);
+}
+li:nth-of-type(2)::after{
+    content: url(./bill.png);
+}
+li:nth-of-type(3)::before{
+    content: url(./doing.png);
+}
+li:nth-of-type(3)::after{
+    content: url(./dance.png);
+}
+li:nth-of-type(4)::before{
+    content: url(./doing.png);;
+}
+li:nth-of-type(4)::after{
+    content: url(./eat.png);
+}
+li:nth-of-type(5)::before{
+    content: url(./no.png);
+}
+li:nth-of-type(5)::after{
+    content: url(./book.png);
+}
+li:nth-of-type(6)::before{
+    content: url(./no.png);
+}
+li:nth-of-type(6)::after{
+    content: url(./organize.png);
+}
+li:nth-of-type(1){
+    text-decoration: line-through;
+}
+li:nth-of-type(2){
+    text-decoration: line-through;
+}
+li:nth-of-type(3){
+    background-color: #00796b;
+}
+li:nth-of-type(4){
+    background-color: #00796b;
+}
+li:nth-of-type(5){
+    text-decoration: underline;
+}
+li:nth-of-type(6){
+    text-decoration: underline;
+}
+li:nth-of-type(2){
+    text-decoration: line-through;
+}
+
+
+li{
+    list-style: none;
+}
+
+/*
+li::before {
+    content: url(./bill.png);
+}
+li::after {
+    content: url(./book.png);
+}
+li:nth-child(3){
+    text-decoration: line-through;
+}
+li:nth-child(4){
+    text-decoration: line-through;
+}
+.hit {
+    text-decoration: line-through;
+    color: red;
+}
+.hit::after{
+    content: url(./check.png);
+}
+*/

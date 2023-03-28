@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+header{
+    border-top: 1px solid black;
+    width: 30rem;
+}
+h1 {
+    /* text-decoration: overline; */
+}
+p {
+    text-align: left;
+    width: 30rem;
+}
+.box{
+    border: 1px solid black;
+    width: 30rem;
+}
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+ul{
+    padding-inline: 1.2em;
+    list-style: none;
+}
+
+.dog li::before{
+    list-style: none;
+    content: "🐶";
+    padding: 0;
+    margin: 0;
+}
+.parrot li::before{
+    list-style: none;
+    content: "🦜";
+    padding: 0;
+    margin: 0;
+}
+
+.cat li::before{
+    list-style: none;
+    content: "🐱";
+    padding: 0;
+    margin: 0;
+}
+
+.snake li::before{
+    list-style: none;
+    content: "🐍";
+    padding: 0;
+    margin: 0;
+}
+
+.lizzard li::before {
+    list-style: none;
+    content: "🦎";
+    padding: 0;
+    margin: 0;
+}
